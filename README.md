@@ -21,7 +21,7 @@ Radio connection:
  	PB2:GPIO_OUT	->	RF_NRST\\\\
 
 User PIN out:
- 	PA8		->		TIM1_CH1
+ 	PA8		->		TIM1_CH1\\\\
  	PA9		->		TIM1_CH2
  	PA10	->		TIM1_CH3
  	PA11	->		TIM1_CH4
