@@ -1,5 +1,6 @@
 # RC_Radio_Transceiver_with_SX1278
  Radio Transceiver for RC ,Base on stm32f051k8 & SX1278 ,Support PPI,PWM,SBUS & Uart .
+![](https://github.com/zhengkaiduan/RC_Radio_Transceiver_with_SX1278/raw/master/Pictures/IMG0663.jpg)
 
  This Radio Transceiver design for my 1/14 remote car. Base on STM32F051K8U6 MCU and Semtech SX1278 radio module. 
 
