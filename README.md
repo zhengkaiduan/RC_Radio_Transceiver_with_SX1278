@@ -23,14 +23,14 @@ Radio connection:
 User PIN out 1:
  	PA8		->		PWM_CH1:	TIM1_CH1		->		
  	PA9		->		PWM_CH2:	TIM1_CH2		->		USART1_TX
- 	PA10	->		PWM_CH3:	TIM1_CH3		->		USART1_TX
+ 	PA10	->		PWM_CH3:	TIM1_CH3		->		USART1_RX
  	PA11	->		PWM_CH4:	TIM1_CH4		->		
  	PA15	->		IO_CH5:		GPIO_OUT1		->		
  	PB3		->		IO_CH6:		GPIO_OUT2		->		
 
-For Reciver,Hardware 1.0 can offer 4 channel PWM output and 2 channel on-off output, and also can offer PPM(TIM1 input capture mode), sbus(USART1 Half-Duplex mode，TX pin internal inversion) or uart output.
+For Reciver,Hardware 1.0 can offer 4 channel PWM output and 2 channel on-off output, and also can offer PPM, sbus(USART1 Half-Duplex mode，TX pin internal inversion) or uart output.
 
-For transmitter,Hardware 1.0 can offer  PWM input, sbus input or uart input.
+For transmitter,Hardware 1.0 can offer  PWM/PPM input, sbus input or uart input.
 
 User PIN out 2:
 	PB6		->		I2C1_SCL
@@ -38,4 +38,11 @@ User PIN out 2:
 
 ## Hardware 1.2
 
-Hardware 1.2 base on Hardware 1.0, add on a external voltage regulator(FPDK12SR8004PSV) to help debug .
+Hardware 1.2 base on Hardware 1.0, add on a external voltage regulator(FPDK12SR8004PSV) to help debug, add a RGB led for status indication.
+
+
+
+
+## Firmware 1.0
+
+Firmware 1.0 build for establish radio connection purpose. <User PIN out 1> initialize for USART1 asynchronous output.
