@@ -32,7 +32,7 @@ User PIN out 1:
 
 ![](https://github.com/zhengkaiduan/RC_Radio_Transceiver_with_SX1278/raw/master/Pictures/hw1.0%20illustration%201%20.jpg)
 
-For Reciver,Hardware 1.0 can offer 4 channel PWM output and 2 channel on-off output, and also can offer PPM, sbus(USART1 Half-Duplex mode，TX pin internal inversion) or uart output.
+For Reciver,Hardware 1.0 can offer 4 channel PWM output and 2 channel on-off output, and also can offer PPM, sbus(USART1 Half-Duplex mode，TX pin internal inversion) or uart output. 
 
 For transmitter,Hardware 1.0 can offer  PWM/PPM input, sbus input or uart input.
 
@@ -42,9 +42,9 @@ User PIN out 2:
 
 ## Hardware 1.2
 
-Hardware 1.2 base on Hardware 1.0, add on a external voltage regulator(FPDK12SR8004PSV) to help debug, add a RGB led for status indication.
+Hardware 1.2 base on Hardware 1.0, add on a external voltage regulator(FPDK12SR8004PSV) to help debug, add a RGB led for status indication. Remove not used RF DIO connection, Modified some connection: PA1->RF_DIO0, PA2->RF_NRST. Add a stronger debug connection solder pad.
 
-
+![](https://github.com/zhengkaiduan/RC_Radio_Transceiver_with_SX1278/raw/master/Pictures/hw1.2%20illustration%201%20.jpg)
 
 
 ## Firmware 1.0
